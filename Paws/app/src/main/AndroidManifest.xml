@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Paws"
         tools:targetApi="31">
         <activity
+            android:name=".LogUpCorreo"
+            android:exported="false" />
+        <activity
+            android:name=".Empezar"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivities"
             android:exported="false" />
         <activity

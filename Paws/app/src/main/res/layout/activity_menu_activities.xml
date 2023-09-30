@@ -6,13 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivities"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:backgroundTint="@color/white">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bienvenidos"
-        android:gravity="center"
-        android:textSize="20sp"></TextView>
+        android:layout_height="336dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paws__1_" />
 
+    <Button
+        android:id="@+id/buttonEmpezar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main_orange"
+        android:text="Empezar"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25dp"/>
 </LinearLayout>
