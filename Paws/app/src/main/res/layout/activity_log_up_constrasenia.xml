@@ -4,28 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="30dp"
-    tools:context=".LogUpCorreo">
+    tools:context=".LogUpConstrasenia"
+    android:padding="25dp">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewMensajeConstrasenia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="Escribe el correo electronico asociado cocn tu perfil. Si eres nuevo este corrreo va a ser el de tu perfil"
+        android:text="Escoge una contrasenia ****@gmail.com"
         android:textSize="17dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextCorreo" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextContrasenia" />
 
     <Button
-        android:id="@+id/buttonTitulo"
+        android:id="@+id/buttonTituloContrasenia"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_marginTop="132dp"
         android:backgroundTint="@color/main_orange"
         android:clickable="false"
-        android:text="Correo Electronico"
+        android:text="Contrasenia"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -33,18 +33,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextCorreo"
+        android:id="@+id/editTextContrasenia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:hint="example@gmail.com"
+        android:hint="********"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTitulo"
-        android:inputType="textEmailAddress"></EditText>
+        app:layout_constraintTop_toBottomOf="@+id/buttonTituloContrasenia"
+        android:inputType="textPassword"></EditText>
 
     <Button
-        android:id="@+id/buttonSiguienteCorreo"
+        android:id="@+id/buttonSiguiente_Contrasenia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
@@ -53,7 +53,5 @@
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/textViewMensajeConstrasenia" />
 </androidx.constraintlayout.widget.ConstraintLayout>

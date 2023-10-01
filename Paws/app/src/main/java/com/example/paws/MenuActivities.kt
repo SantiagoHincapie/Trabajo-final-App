@@ -6,10 +6,13 @@ import android.os.Bundle
 import android.widget.Button
 
 class MenuActivities : AppCompatActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        var buttonEmpezar:Button
         var intent: Intent
+        var buttonEmpezar:Button
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_activities)
