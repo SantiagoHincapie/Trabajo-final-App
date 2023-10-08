@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Paws</string>
+    <string-array name="tipos_mascotas">
+        <item>Gato</item>
+        <item>Perro</item>
+        <item>Rana</item>
+        <item>Vaca</item>
+        <item>Roedor</item>
+        <item>Caballo</item>
+        <item>Mini pig</item>
+        <item>otro</item>
+    </string-array>
 </resources>

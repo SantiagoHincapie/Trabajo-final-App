@@ -13,6 +13,48 @@
         android:theme="@style/Theme.Paws"
         tools:targetApi="31">
         <activity
+            android:name=".CerrarSesion"
+            android:exported="false" />
+        <activity
+            android:name=".Configuracion"
+            android:exported="false" />
+        <activity
+            android:name=".TiendasYProductos"
+            android:exported="false" />
+        <activity
+            android:name=".navigationMenu.TiendasyProductos"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHistorialClinicoAgregarVisitaVacuna"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHistorialClinicoHistorialCompleto"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHistorialClinicoVacunas"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHistorialClinicoUltimaVisita"
+            android:exported="false" />
+        <activity
+            android:name=".HomeHistorialClinicoMascota"
+            android:exported="false" />
+        <activity
+            android:name=".HomeMascota"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".LogUpNombreMascotayFoto"
+            android:exported="false" />
+        <activity
+            android:name=".LogUpTipoDeMascota"
+            android:exported="false" />
+        <activity
+            android:name=".LogUpNombreUsuario"
+            android:exported="false" />
+        <activity
             android:name=".NombreDeUsuario"
             android:exported="false" />
         <activity
